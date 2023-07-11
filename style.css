@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar seaction  */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-style: italic;
+}
+.logo span{
+    color: rgb(118, 14, 245);
+    font-size: 3rem;
+}
+.navbar ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.navbar ul li {
+    padding: 8px;
+    border-radius: 4px;
+}
+.navbar ul li:hover{
+    background-color: red;
+    transition: 2s;
+}
+.search{
+    padding: 10px;
+    border-radius: 5px;
+    border: navy;
+    
+}
+/* flower-bio-title-heading-containner */
+.first-flower{
+    width: 320px;
+}
+.flower-containner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.flower-heading{
+    font-size: 3rem;
+
+}
+.flower-bio{
+    font-size: 10px;
+    padding: 15px opx;
+}
+.btn{
+    padding: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    margin-top: 2%;
+}
+/* pick-flower */
+.pick-flower{
+    text-align: center;
+    margin-top: 80px;
+}
+.box-flower-kind-of{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* margin-top: 3%; */
+    /* margin: auto; */
+}
+.kind-of-flower-all-box{
+    margin-top: 3%;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kind-of-flower-box1{
+    height: 350px;
+    width:290px;
+    margin: auto;
+    border-radius: 50% 50% 0% 0%;
+    background-color: antiquewhite;
+}
+.kind-of-flower-box2{
+    height: 350px;
+    width:280px;
+    margin: auto;
+    border-radius: 48% 48% 0% 0%;
+    background-color: aqua;
+
+}
+.kind-of-flower-box3{
+    height: 350px;
+    width:280px;
+    margin: auto;
+    border-radius: 50% 50% 0% 0%;
+    background-color: gray;
+    
+}
+.img1{
+    max-width:90%;
+    max-height:78.5%;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+.img2{
+    margin-top:15%;
+    width: 280px;
+    padding: 20px;
+}
+.img3{
+    max-width:90%;
+    max-height:78.5%;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+/* .pick{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 154px;
+} */
+.title{
+    height: 15px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+.title a{
+    color: black;
+}
+/* kind-of-flower-bio */
+.kind-of-flower-bio{
+    height: 20px;
+    width: 90%;
+    margin: auto;
+
+}
+.control-box{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    background-color: rgb(232, 237, 241);
+}
+.control-img{
+    width: 50px;
+    
+}
+.box1{
+    text-align: center;
+}
+.box1-bio{
+    padding: 10PX;
+    font-size: 12PX;
+}
+/* offer-box */
+.offer-box{
+    height: 300px;
+    width: 100%;
+    background-color: azure;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-side-box{
+    text-align: center;
+}
+.left-side-box-bio{
+    padding: 15px;
+}
+.right-side-box-img{
+    width: 200px
+}
+/* instagram */
+.instagram{
+    text-align: center;
+    margin-top: 5%;
+}
+.instagram-bio{
+    padding: 12px;
+    font-size: 12px;
+}
+/* many-kind-of-flower */
+.kind-of-flower-box{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+/* kind-of-flower-box */
+.image-box{
+    height: 260px;
+    width: 25%;
+    margin-top: 4%;
+}
+.many-kind-of-flower{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+.image-box-all{
+    height: 260px;
+    width: 100%;
+}
+/* /* .end-section */
+.end{
+    margin-top: 60px;
+}
+/* .end-section" */
+.end-section{
+    margin: auto;
+    height: 250px;
+    width: 70%;
+    background-image: url('Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-size: 100%;
+    
+}
+
+.end-section{
+    text-align: center;
+    padding: 50px;
+}
+.end-section-p{
+    padding: 10px;
+}
+.email-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 40px;
+}
+/* /* /* Footer */
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+
+}
+.footer-bio{
+    text-align: center;
+}
+.footer-heading{
+    padding-top: 50px;
+    font-size: 3rem;
+}
+.footer-heading span{
+    color: red;
+}
+.footer-pra{
+    padding: 10px;
+    font-size: 12px;
+}
